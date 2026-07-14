@@ -99,8 +99,8 @@ Do not delete any of the above code. */
 }
 
 
-.main-comtent{
-  background-color: #3498db;
+.main-content{
+  background-color: #8594d6;
   padding: 20px;
   color: white;
   text-shadow: 2px 2px 5px black;
@@ -113,4 +113,9 @@ Do not delete any of the above code. */
   color: white;
   text-shadow: 2px 2px 5px black;
   border-radius: 8px;
+}
+
+/* C2: styling for mobile */
+. .layout-wrapper{
+  flex-direction: column;
 }

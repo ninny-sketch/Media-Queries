@@ -76,23 +76,7 @@ Do not delete any of the above code. */
   border-radius: 8px;
 }
 
-/* styling for tablet */
-@media screen and (max-width:991px){
-  .light-box{
-    background-color: yellow;
-    color: #2c3e50;
-  }
-}
-
-/* styling for mobile */
-@media screen and (max-width: 786px) {
-  .light-box{
-    background-color: green;
-    color: white;
-  }
-}
-
-/* C2: side-by-side view on desktop */
+/* C2: side-by-side on desktop */
 .layout-wrapper{
   display: flex;
   gap: 20px;
@@ -122,6 +106,7 @@ Do not delete any of the above code. */
     color: #2c3e50;
   }
 }
+
 /* styling for mobile */
 @media screen and (max-width: 786px) {
   .light-box {
@@ -148,7 +133,7 @@ Do not delete any of the above code. */
 }
 .menu-container:hover .nav-links {
 flex-direction: column;
-display:flex
+display: flex;
 
 }
 }
